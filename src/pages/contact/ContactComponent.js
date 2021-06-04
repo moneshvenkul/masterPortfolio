@@ -95,7 +95,7 @@ class Contact extends Component {
                 <AddressImg theme={theme} />
               </div>
               <div className="address-heading-text-div">
-                <h1
+                {/* <h1
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
@@ -106,7 +106,7 @@ class Contact extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   {addressSection["subtitle"]}
-                </p>
+                </p> */}
                 <h1
                   className="address-heading-text"
                   style={{ color: theme.text }}
@@ -119,14 +119,14 @@ class Contact extends Component {
                 >
                   {phoneSection["subtitle"]}
                 </p>
-                <div className="address-btn-div">
+                {/* <div className="address-btn-div">
                   <Button
                     text="Visit on Google Maps"
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>
